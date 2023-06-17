@@ -44,8 +44,11 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.button7 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -226,11 +229,36 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "How much crates will you buy ?";
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.button7, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(13, 248);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(302, 39);
+            this.tableLayoutPanel3.TabIndex = 10;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button7.Location = new System.Drawing.Point(0, 0);
+            this.button7.Margin = new System.Windows.Forms.Padding(0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(302, 39);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Clear";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 248);
+            this.ClientSize = new System.Drawing.Size(328, 299);
+            this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -242,13 +270,13 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(344, 287);
             this.MinimumSize = new System.Drawing.Size(344, 287);
             this.Name = "Form1";
             this.Text = "special cargo calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +300,7 @@
         private TableLayoutPanel tableLayoutPanel2;
         private Label label4;
         private Label label5;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Button button7;
     }
 }
