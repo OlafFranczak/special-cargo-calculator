@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OLAFF\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
+    "C:\\Users\\OLAFF\\github\\special-cargo-calculator\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OLAFF\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
+    "C:\\Users\\OLAFF\\github\\special-cargo-calculator\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLAFF\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectUniqueName": "C:\\Users\\OLAFF\\github\\special-cargo-calculator\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
         "projectName": "WinFormsApp2",
-        "projectPath": "C:\\Users\\OLAFF\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectPath": "C:\\Users\\OLAFF\\github\\special-cargo-calculator\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
         "packagesPath": "C:\\Users\\OLAFF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLAFF\\source\\repos\\WinFormsApp2\\WinFormsApp2\\obj\\",
+        "outputPath": "C:\\Users\\OLAFF\\github\\special-cargo-calculator\\WinFormsApp2\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OLAFF\\AppData\\Roaming\\NuGet\\NuGet.Config",

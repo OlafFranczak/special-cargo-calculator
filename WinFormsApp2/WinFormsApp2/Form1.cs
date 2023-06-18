@@ -81,8 +81,6 @@ namespace WinFormsApp2
 
             num = 2;
             price = 8000;
-            textBox1.Text = ((double)capacity / num).ToString("F2");
-            textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
             if (capacity == 16)
             {
                 DialogResult dr = MessageBox.Show("Do you have second Warehouse ?", " ",
@@ -91,9 +89,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (240000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2*(price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2*(capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (240000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -105,9 +107,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (735000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (735000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -119,9 +125,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (4200000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (4200000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -141,8 +151,6 @@ namespace WinFormsApp2
 
             num = 3;
             price = 18000;
-            textBox1.Text = ((double)capacity / num).ToString("F2");
-            textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
             if (capacity == 16)
             {
                 DialogResult dr = MessageBox.Show("Do you have second Warehouse ?", " ",
@@ -151,9 +159,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (240000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (240000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -165,9 +177,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (735000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (735000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -179,9 +195,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (4200000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (4200000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -201,8 +221,6 @@ namespace WinFormsApp2
             textBox3.Show();
 
             price = 2000;
-            textBox1.Text = ((double)capacity / num).ToString("F2");
-            textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
             if (capacity == 16)
             {
                 DialogResult dr = MessageBox.Show("Do you have second Warehouse ?", " ",
@@ -211,9 +229,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (240000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (240000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -225,9 +247,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2 * (735000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (735000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
@@ -239,9 +265,13 @@ namespace WinFormsApp2
                 {
                     case DialogResult.Yes:
                         textBox3.Text = (2*(4200000 - (price * ((double)capacity / num)))).ToString("F2");
+                        textBox2.Text = (2 * (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (2 * (capacity / num)).ToString();
                         break;
                     case DialogResult.No:
                         textBox3.Text = (4200000 - (price * ((double)capacity / num))).ToString("F2");
+                        textBox1.Text = (capacity / num).ToString();
+                        textBox2.Text = (price * ((double)capacity / num)).ToString("F2");
                         break;
                 }
             }
